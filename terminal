@@ -1,0 +1,8 @@
+mkdir nodejs-final-project
+cd nodejs-final-project
+npm init -y
+npm install express mongoose bcryptjs jsonwebtoken dotenv express-validator morgan multer winston cors 
+mkdir src
+cd src
+mkdir models controllers routes middleware config utils
+touch app.js .env 
